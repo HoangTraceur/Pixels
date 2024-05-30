@@ -73,10 +73,10 @@ const buttonSelectors = [
     "#btnHQ", // Assuming this is the ID for btnCHinterior
     "#btnCaveHQ",
     "#btnCarnival",
-    "#btnHomeMission",
+    "#btnHomeYGG",
     "#btnPostOffice",
-    "#btnSpaceWalk",
-    "#btnBarneysFarm",
+    "#btnDrunkenGoose",
+    "#btnCotton",
   ];
 
   function createOrUpdateButton(selector) {
