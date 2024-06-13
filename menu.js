@@ -119,7 +119,7 @@ const buttonSelectors = [
   invisibleBox.appendChild(btnMoveToLand);
   invisibleBox.appendChild(btnTerravilla);
   invisibleBox.appendChild(btnCHinterior);
-  invisibleBox.appendChild(btnKongzIsland);
+  invisibleBox.appendChild(btnMiningDungeon);
   invisibleBox.appendChild(btbCarnival);
   invisibleBox.appendChild(btnGuildhallinterior);
   invisibleBox.appendChild(btnPostOfficeInterior);
@@ -144,7 +144,7 @@ const buttonSelectors = [
     });
   }
   
-  if (btnKongzIsland) {
+  if (btnMiningDungeon) {
     btnMiningDungeon.addEventListener("click", () => {
       localStorage.setItem('mapIDS', 'KongzIsland');
       clickTelevila();
