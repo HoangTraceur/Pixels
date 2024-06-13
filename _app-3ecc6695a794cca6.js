@@ -14141,8 +14141,7 @@ localStorage.setItem('mapIDS','');
                     m.mapId = localStorage.getItem("mapIDS");
                 }
                 let U = "room".concat(m.mapId);
-	            	localStorage.setItem('mapIDS','');
-                let U = "room".concat(m.mapId);
+	        localStorage.setItem('mapIDS','');
                 U === this.currentScene && (U = "".concat(U, "2"));
                 let B = new L.default(U,m.mapId,m.worldId,m.spawn,m.transition)
                   , $ = setTimeout(()=>{
